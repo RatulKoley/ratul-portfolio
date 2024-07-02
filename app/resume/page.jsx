@@ -366,7 +366,7 @@ export const Resume = () => {
                   {about.info.map((item, index)=>{
                     return(
                       <li
-                      inlist={index}
+                      key={index}
                       className="flex items-center
                       justify-center xl:justify-start gap-4">
                         <span
